@@ -1,0 +1,45 @@
+{
+  "Serilog": {
+    "LevelSwitches": {
+      "$databaseSwitch": "Error",
+      "$fileSwitch": "Debug"
+    },
+    "MinimumLevel": "Debug",
+    "WriteTo": [
+      {
+        "Name": "Logger",
+        "Args": {
+          "configureLogger": {
+            "Filter": [
+              {
+                "Name": "ByIncludingOnly",
+                "Args": {
+                  "expression": "(@Level = 'Error' or @Level = 'Debug')"
+                }
+              }
+            ],
+            "WriteTo": [
+              {
+                "Name": "File",
+                "Args": {
+                  "path": "%TEMP%/Logs/SecurityApi-.log",
+                  "outputTemplate":
+                    "{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} [{Level:u3}] [{SourceContext}] | {ClassNameDelimited}{Message:l}{NewLine}{Exception}",
+                  "rollingInterval": "Day",
+                  "retainedFileCountLimit": 7
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "Enrich": [
+      "FromLogContext",
+      "WithMachineName"
+    ],
+    "Properties": {
+      "Application": "SecurityAPI"
+    }
+  }
+}

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessViolationException" xml:space="preserve">
+    <value>Tentative d'accès à la mémoire protégée, c'est-à-dire d'accès à la mémoire qui n'est pas allouée ou qui n'appartient pas à un processus.</value>
+  </data>
+  <data name="ArgumentException" xml:space="preserve">
+    <value>Un argument non nul qui est passé à une méthode n'est pas valide.</value>
+  </data>
+  <data name="ArgumentNull" xml:space="preserve">
+    <value>Un {0} argument passé à une méthode est null.</value>
+  </data>
+  <data name="ArgumentNullException" xml:space="preserve">
+    <value>Un argument passé à une méthode est null.</value>
+  </data>
+  <data name="ArgumentOutOfRangeException" xml:space="preserve">
+    <value>Un argument est en dehors de la plage de valeurs valides.</value>
+  </data>
+  <data name="BadRequest" xml:space="preserve">
+    <value>Demande invalide ou mal formée.Veuillez vérifier et réessayer.</value>
+  </data>
+  <data name="Conflict" xml:space="preserve">
+    <value>Il y avait un conflit entre les données fournies et la ressource existante.</value>
+  </data>
+  <data name="DirectoryNotFoundException" xml:space="preserve">
+    <value>Impossible de trouver le répertoire spécifié. Veuillez réessayer.</value>
+  </data>
+  <data name="DivideByZeroException" xml:space="preserve">
+    <value>Levée lorsqu'une valeur entière est divisée par zéro.</value>
+  </data>
+  <data name="FileNotFoundException" xml:space="preserve">
+    <value>Un fichier physique n'existe pas à l'emplacement spécifié.</value>
+  </data>
+  <data name="FileSharingViolation" xml:space="preserve">
+    <value>Tentative d'ouverture d'un fichier utilisé par un autre programme</value>
+  </data>
+  <data name="Forbidden" xml:space="preserve">
+    <value>Accès refusé, vous n'avez pas la permission d'accéder. veuillez contacter l'administrateur système.</value>
+  </data>
+  <data name="FormatException" xml:space="preserve">
+    <value>Une valeur n'est pas dans un format approprié pour être convertie à partir d'une chaîne par une méthode de conversion telle que Parse.</value>
+  </data>
+  <data name="IndexOutOfRangeException" xml:space="preserve">
+    <value>Un index de collection est en dehors des limites inférieures ou supérieures d'un tableau ou d'une collection.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Nom d'utilisateur ou mot de passe invalide. Veuillez réessayer</value>
+  </data>
+  <data name="InvalidOperationException" xml:space="preserve">
+    <value>Un appel de méthode n'est pas valide dans l'état actuel d'un objet.</value>
+  </data>
+  <data name="InvalidPasswordException" xml:space="preserve">
+    <value>Mot de passe incorrect. Veuillez réessayer.</value>
+  </data>
+  <data name="InvalidRefreshToken" xml:space="preserve">
+    <value>Jeton invalide. Veuillez réessayer.</value>
+  </data>
+  <data name="InvalidRequestFormatException" xml:space="preserve">
+    <value>Propriété de format de demande non valide. Modifiez-le ou supprimez les paramètres d'entrée de la requête.</value>
+  </data>
+  <data name="IoException" xml:space="preserve">
+    <value>Le fichier est verrouillé</value>
+  </data>
+  <data name="KeyNotFoundException" xml:space="preserve">
+    <value>La clé spécifiée pour accéder à un membre dans une collection est introuvable.</value>
+  </data>
+  <data name="NoContent" xml:space="preserve">
+    <value>L'URI spécifié ne contient aucun contenu.</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>L'URI spécifié n'existe pas. Veuillez vérifier et réessayer.</value>
+  </data>
+  <data name="NotImplemented" xml:space="preserve">
+    <value>Le serveur ne reconnaît pas la méthode de demande et n'est pas capable de la prendre en charge pour aucune ressource.</value>
+  </data>
+  <data name="NotModified" xml:space="preserve">
+    <value>La ressource demandée n'a pas été modifiée.</value>
+  </data>
+  <data name="NotSupportedException" xml:space="preserve">
+    <value>Une méthode ou une opération n'est pas prise en charge.</value>
+  </data>
+  <data name="NullReferenceException" xml:space="preserve">
+    <value>Accéder aux membres de l'objet null.</value>
+  </data>
+  <data name="ObjectDisposedException" xml:space="preserve">
+    <value>Une opération est effectuée sur un objet qui a été supprimé.</value>
+  </data>
+  <data name="OutOfMemoryException" xml:space="preserve">
+    <value>N'obtient pas assez de mémoire pour exécuter le code.</value>
+  </data>
+  <data name="OverflowException" xml:space="preserve">
+    <value>Une opération arithmétique, de transtypage ou de conversion entraîne un débordement.</value>
+  </data>
+  <data name="RequestIDConflictException" xml:space="preserve">
+    <value>L'ID de la demande est actuellement en cours, veuillez réessayer plus tard</value>
+  </data>
+  <data name="RequestUriTooLong" xml:space="preserve">
+    <value>L'URI demandé par le client est plus long que ce que le serveur est prêt à interpréter.</value>
+  </data>
+  <data name="RequiredFieldEmptyException" xml:space="preserve">
+    <value>Le champ {0} est obligatoire.</value>
+  </data>
+  <data name="RequiredFieldInvalidException" xml:space="preserve">
+    <value>Format {0} non valide ou non pris en charge.</value>
+  </data>
+  <data name="RequiredFieldMissingException" xml:space="preserve">
+    <value>Les champs obligatoires sont manquants : [{0}].</value>
+  </data>
+  <data name="RequiredNonEmptyRequestBodyException" xml:space="preserve">
+    <value>Un corps de requête non vide est requis</value>
+  </data>
+  <data name="StackOverflowException" xml:space="preserve">
+    <value>Une pile en mémoire déborde.</value>
+  </data>
+  <data name="TimeoutException" xml:space="preserve">
+    <value>L'intervalle de temps alloué à une opération a expiré.</value>
+  </data>
+  <data name="TokenExpired" xml:space="preserve">
+    <value>Jeton expiré. Veuillez obtenir un nouveau jeton.</value>
+  </data>
+  <data name="TokenGeneratedException" xml:space="preserve">
+    <value>Une erreur s'est produite lors de la génération du jeton d'accès. Veuillez réessayer.</value>
+  </data>
+  <data name="UnAuthorized" xml:space="preserve">
+    <value>L'utilisateur n'est pas autorisé à faire la demande. Veuillez réessayer.</value>
+  </data>
+  <data name="UnauthorizedAccessException" xml:space="preserve">
+    <value>Impossible d'accéder au fichier ou le fichier est en lecture seule.</value>
+  </data>
+  <data name="UnknownApiError" xml:space="preserve">
+    <value>Une erreur de services API inconnue s'est produite. veuillez contacter l'administrateur système.</value>
+  </data>
+  <data name="UnsupportedMediaType" xml:space="preserve">
+    <value>Le format de support des données demandées n'est pas pris en charge par le serveur, le serveur rejette donc la demande.</value>
+  </data>
+  <data name="UriFormatException" xml:space="preserve">
+    <value>Un identificateur de ressource uniforme (URI) non valide est utilisé.</value>
+  </data>
+</root>
